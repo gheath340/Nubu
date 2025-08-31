@@ -30,9 +30,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		EED6B40A2E64FB6B0010ED58 /* Nubu */ = {
+		EED6B40A2E64FB6B0010ED58 /* App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Nubu;
+			path = App;
 			sourceTree = "<group>";
 		};
 		EED6B4192E64FB6D0010ED58 /* NubuTests */ = {
@@ -75,7 +75,7 @@
 		EED6B3FF2E64FB6B0010ED58 = {
 			isa = PBXGroup;
 			children = (
-				EED6B40A2E64FB6B0010ED58 /* Nubu */,
+				EED6B40A2E64FB6B0010ED58 /* App */,
 				EED6B4192E64FB6D0010ED58 /* NubuTests */,
 				EED6B4232E64FB6D0010ED58 /* NubuUITests */,
 				EED6B4092E64FB6B0010ED58 /* Products */,
@@ -108,7 +108,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				EED6B40A2E64FB6B0010ED58 /* Nubu */,
+				EED6B40A2E64FB6B0010ED58 /* App */,
 			);
 			name = Nubu;
 			packageProductDependencies = (
@@ -388,7 +388,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Nubu/Nubu.entitlements;
+				CODE_SIGN_ENTITLEMENTS = App/Nubu.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
@@ -425,7 +425,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Nubu/Nubu.entitlements;
+				CODE_SIGN_ENTITLEMENTS = App/Nubu.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
