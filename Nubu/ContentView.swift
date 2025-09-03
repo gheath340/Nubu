@@ -40,7 +40,7 @@ struct ContentView: View {
             .tabItem { Label("Groceries", systemImage: "cart") }
             .tag(Tab.groceries)
         }
-        .tint(.red)
+        .tint(.teal)
     }
 }
 
