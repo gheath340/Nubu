@@ -4,4 +4,4 @@ build/
 xcuserdata/
 
 # Secrets
-Secrets.xcconfig
+Supabase.swift
