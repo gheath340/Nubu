@@ -48,7 +48,7 @@ struct TestView: View {
             }
         }
         .padding()
-        .task { await vm.loadItems() } // auto-load on first appear
+        .task { await vm.loadItems() }
     }
 }
 

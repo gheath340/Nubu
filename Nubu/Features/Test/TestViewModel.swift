@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import Supabase
 
 struct TestItem: Codable, Identifiable {
     let id: Int
