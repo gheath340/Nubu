@@ -6,63 +6,68 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EED6B4892E6628D10010ED58 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = EED6B4882E6628D10010ED58 /* Supabase */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
-		EED6B4172E64FB6D0010ED58 /* PBXContainerItemProxy */ = {
+		EED6B4592E6625940010ED58 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EED6B4002E64FB6B0010ED58 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EED6B4072E64FB6B0010ED58;
-			remoteInfo = Nubu;
+			remoteGlobalIDString = EED6B44B2E6625920010ED58;
+			remoteInfo = "Nubu IOS";
 		};
-		EED6B4212E64FB6D0010ED58 /* PBXContainerItemProxy */ = {
+		EED6B4632E6625940010ED58 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EED6B4002E64FB6B0010ED58 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EED6B4072E64FB6B0010ED58;
-			remoteInfo = Nubu;
+			remoteGlobalIDString = EED6B44B2E6625920010ED58;
+			remoteInfo = "Nubu IOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EED6B4082E64FB6B0010ED58 /* Nubu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nubu.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EED6B4162E64FB6D0010ED58 /* NubuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NubuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EED6B4202E64FB6D0010ED58 /* NubuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NubuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED6B44C2E6625920010ED58 /* Nubu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nubu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED6B4582E6625940010ED58 /* Nubu Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nubu Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED6B4622E6625940010ED58 /* Nubu UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nubu UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		EED6B40A2E64FB6B0010ED58 /* App */ = {
+		EED6B44D2E6625920010ED58 /* Nubu */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = App;
+			path = Nubu;
 			sourceTree = "<group>";
 		};
-		EED6B4192E64FB6D0010ED58 /* NubuTests */ = {
+		EED6B45B2E6625940010ED58 /* Nubu Tests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NubuTests;
+			path = "Nubu Tests";
 			sourceTree = "<group>";
 		};
-		EED6B4232E64FB6D0010ED58 /* NubuUITests */ = {
+		EED6B4652E6625940010ED58 /* Nubu UITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NubuUITests;
+			path = "Nubu UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EED6B4052E64FB6B0010ED58 /* Frameworks */ = {
+		EED6B4492E6625920010ED58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED6B4892E6628D10010ED58 /* Supabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED6B4552E6625940010ED58 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EED6B4132E64FB6D0010ED58 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EED6B41D2E64FB6D0010ED58 /* Frameworks */ = {
+		EED6B45F2E6625940010ED58 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,9 +80,9 @@
 		EED6B3FF2E64FB6B0010ED58 = {
 			isa = PBXGroup;
 			children = (
-				EED6B40A2E64FB6B0010ED58 /* App */,
-				EED6B4192E64FB6D0010ED58 /* NubuTests */,
-				EED6B4232E64FB6D0010ED58 /* NubuUITests */,
+				EED6B44D2E6625920010ED58 /* Nubu */,
+				EED6B45B2E6625940010ED58 /* Nubu Tests */,
+				EED6B4652E6625940010ED58 /* Nubu UITests */,
 				EED6B4092E64FB6B0010ED58 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +90,9 @@
 		EED6B4092E64FB6B0010ED58 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EED6B4082E64FB6B0010ED58 /* Nubu.app */,
-				EED6B4162E64FB6D0010ED58 /* NubuTests.xctest */,
-				EED6B4202E64FB6D0010ED58 /* NubuUITests.xctest */,
+				EED6B44C2E6625920010ED58 /* Nubu.app */,
+				EED6B4582E6625940010ED58 /* Nubu Tests.xctest */,
+				EED6B4622E6625940010ED58 /* Nubu UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,72 +100,73 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EED6B4072E64FB6B0010ED58 /* Nubu */ = {
+		EED6B44B2E6625920010ED58 /* Nubu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EED6B42A2E64FB6D0010ED58 /* Build configuration list for PBXNativeTarget "Nubu" */;
+			buildConfigurationList = EED6B46A2E6625940010ED58 /* Build configuration list for PBXNativeTarget "Nubu" */;
 			buildPhases = (
-				EED6B4042E64FB6B0010ED58 /* Sources */,
-				EED6B4052E64FB6B0010ED58 /* Frameworks */,
-				EED6B4062E64FB6B0010ED58 /* Resources */,
+				EED6B4482E6625920010ED58 /* Sources */,
+				EED6B4492E6625920010ED58 /* Frameworks */,
+				EED6B44A2E6625920010ED58 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				EED6B40A2E64FB6B0010ED58 /* App */,
+				EED6B44D2E6625920010ED58 /* Nubu */,
 			);
 			name = Nubu;
 			packageProductDependencies = (
+				EED6B4882E6628D10010ED58 /* Supabase */,
 			);
-			productName = Nubu;
-			productReference = EED6B4082E64FB6B0010ED58 /* Nubu.app */;
+			productName = "Nubu IOS";
+			productReference = EED6B44C2E6625920010ED58 /* Nubu.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EED6B4152E64FB6D0010ED58 /* NubuTests */ = {
+		EED6B4572E6625940010ED58 /* Nubu Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EED6B42D2E64FB6D0010ED58 /* Build configuration list for PBXNativeTarget "NubuTests" */;
+			buildConfigurationList = EED6B46D2E6625940010ED58 /* Build configuration list for PBXNativeTarget "Nubu Tests" */;
 			buildPhases = (
-				EED6B4122E64FB6D0010ED58 /* Sources */,
-				EED6B4132E64FB6D0010ED58 /* Frameworks */,
-				EED6B4142E64FB6D0010ED58 /* Resources */,
+				EED6B4542E6625940010ED58 /* Sources */,
+				EED6B4552E6625940010ED58 /* Frameworks */,
+				EED6B4562E6625940010ED58 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EED6B4182E64FB6D0010ED58 /* PBXTargetDependency */,
+				EED6B45A2E6625940010ED58 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				EED6B4192E64FB6D0010ED58 /* NubuTests */,
+				EED6B45B2E6625940010ED58 /* Nubu Tests */,
 			);
-			name = NubuTests;
+			name = "Nubu Tests";
 			packageProductDependencies = (
 			);
-			productName = NubuTests;
-			productReference = EED6B4162E64FB6D0010ED58 /* NubuTests.xctest */;
+			productName = "Nubu IOSTests";
+			productReference = EED6B4582E6625940010ED58 /* Nubu Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EED6B41F2E64FB6D0010ED58 /* NubuUITests */ = {
+		EED6B4612E6625940010ED58 /* Nubu UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EED6B4302E64FB6D0010ED58 /* Build configuration list for PBXNativeTarget "NubuUITests" */;
+			buildConfigurationList = EED6B4702E6625940010ED58 /* Build configuration list for PBXNativeTarget "Nubu UITests" */;
 			buildPhases = (
-				EED6B41C2E64FB6D0010ED58 /* Sources */,
-				EED6B41D2E64FB6D0010ED58 /* Frameworks */,
-				EED6B41E2E64FB6D0010ED58 /* Resources */,
+				EED6B45E2E6625940010ED58 /* Sources */,
+				EED6B45F2E6625940010ED58 /* Frameworks */,
+				EED6B4602E6625940010ED58 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EED6B4222E64FB6D0010ED58 /* PBXTargetDependency */,
+				EED6B4642E6625940010ED58 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				EED6B4232E64FB6D0010ED58 /* NubuUITests */,
+				EED6B4652E6625940010ED58 /* Nubu UITests */,
 			);
-			name = NubuUITests;
+			name = "Nubu UITests";
 			packageProductDependencies = (
 			);
-			productName = NubuUITests;
-			productReference = EED6B4202E64FB6D0010ED58 /* NubuUITests.xctest */;
+			productName = "Nubu IOSUITests";
+			productReference = EED6B4622E6625940010ED58 /* Nubu UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -173,16 +179,16 @@
 				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					EED6B4072E64FB6B0010ED58 = {
+					EED6B44B2E6625920010ED58 = {
 						CreatedOnToolsVersion = 16.4;
 					};
-					EED6B4152E64FB6D0010ED58 = {
+					EED6B4572E6625940010ED58 = {
 						CreatedOnToolsVersion = 16.4;
-						TestTargetID = EED6B4072E64FB6B0010ED58;
+						TestTargetID = EED6B44B2E6625920010ED58;
 					};
-					EED6B41F2E64FB6D0010ED58 = {
+					EED6B4612E6625940010ED58 = {
 						CreatedOnToolsVersion = 16.4;
-						TestTargetID = EED6B4072E64FB6B0010ED58;
+						TestTargetID = EED6B44B2E6625920010ED58;
 					};
 				};
 			};
@@ -195,34 +201,37 @@
 			);
 			mainGroup = EED6B3FF2E64FB6B0010ED58;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EED6B4362E661C6A0010ED58 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EED6B4092E64FB6B0010ED58 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EED6B4072E64FB6B0010ED58 /* Nubu */,
-				EED6B4152E64FB6D0010ED58 /* NubuTests */,
-				EED6B41F2E64FB6D0010ED58 /* NubuUITests */,
+				EED6B44B2E6625920010ED58 /* Nubu */,
+				EED6B4572E6625940010ED58 /* Nubu Tests */,
+				EED6B4612E6625940010ED58 /* Nubu UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EED6B4062E64FB6B0010ED58 /* Resources */ = {
+		EED6B44A2E6625920010ED58 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EED6B4142E64FB6D0010ED58 /* Resources */ = {
+		EED6B4562E6625940010ED58 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EED6B41E2E64FB6D0010ED58 /* Resources */ = {
+		EED6B4602E6625940010ED58 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +241,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EED6B4042E64FB6B0010ED58 /* Sources */ = {
+		EED6B4482E6625920010ED58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EED6B4122E64FB6D0010ED58 /* Sources */ = {
+		EED6B4542E6625940010ED58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EED6B41C2E64FB6D0010ED58 /* Sources */ = {
+		EED6B45E2E6625940010ED58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,21 +265,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EED6B4182E64FB6D0010ED58 /* PBXTargetDependency */ = {
+		EED6B45A2E6625940010ED58 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EED6B4072E64FB6B0010ED58 /* Nubu */;
-			targetProxy = EED6B4172E64FB6D0010ED58 /* PBXContainerItemProxy */;
+			target = EED6B44B2E6625920010ED58 /* Nubu */;
+			targetProxy = EED6B4592E6625940010ED58 /* PBXContainerItemProxy */;
 		};
-		EED6B4222E64FB6D0010ED58 /* PBXTargetDependency */ = {
+		EED6B4642E6625940010ED58 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EED6B4072E64FB6B0010ED58 /* Nubu */;
-			targetProxy = EED6B4212E64FB6D0010ED58 /* PBXContainerItemProxy */;
+			target = EED6B44B2E6625920010ED58 /* Nubu */;
+			targetProxy = EED6B4632E6625940010ED58 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		EED6B4282E64FB6D0010ED58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = EED6B44D2E6625920010ED58 /* Nubu */;
+			baseConfigurationReferenceRelativePath = Secrets.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -332,6 +343,8 @@
 		};
 		EED6B4292E64FB6D0010ED58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = EED6B44D2E6625920010ED58 /* Nubu */;
+			baseConfigurationReferenceRelativePath = Secrets.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -383,163 +396,158 @@
 			};
 			name = Release;
 		};
-		EED6B42B2E64FB6D0010ED58 /* Debug */ = {
+		EED6B46B2E6625940010ED58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = EED6B44D2E6625920010ED58 /* Nubu */;
+			baseConfigurationReferenceRelativePath = Secrets.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = App/Nubu.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6M2Q7QVWK9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_CFBundleDisplayName = Nubu;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Nubu.Nubu;
+				PRODUCT_BUNDLE_IDENTIFIER = Garrett.Nubu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = YES;
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 2.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		EED6B42C2E64FB6D0010ED58 /* Release */ = {
+		EED6B46C2E6625940010ED58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = EED6B44D2E6625920010ED58 /* Nubu */;
+			baseConfigurationReferenceRelativePath = Secrets.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = App/Nubu.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6M2Q7QVWK9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_CFBundleDisplayName = Nubu;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Nubu.Nubu;
+				PRODUCT_BUNDLE_IDENTIFIER = Garrett.Nubu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = YES;
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 2.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		EED6B42E2E64FB6D0010ED58 /* Debug */ = {
+		EED6B46E2E6625940010ED58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = EED6B44D2E6625920010ED58 /* Nubu */;
+			baseConfigurationReferenceRelativePath = Secrets.xcconfig;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Nubu.NubuTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nubu.Nubu-IOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nubu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nubu";
-				XROS_DEPLOYMENT_TARGET = 2.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nubu IOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nubu IOS";
 			};
 			name = Debug;
 		};
-		EED6B42F2E64FB6D0010ED58 /* Release */ = {
+		EED6B46F2E6625940010ED58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = EED6B44D2E6625920010ED58 /* Nubu */;
+			baseConfigurationReferenceRelativePath = Secrets.xcconfig;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Nubu.NubuTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nubu.Nubu-IOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nubu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nubu";
-				XROS_DEPLOYMENT_TARGET = 2.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nubu IOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nubu IOS";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		EED6B4312E64FB6D0010ED58 /* Debug */ = {
+		EED6B4712E6625940010ED58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = EED6B44D2E6625920010ED58 /* Nubu */;
+			baseConfigurationReferenceRelativePath = Secrets.xcconfig;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Nubu.NubuUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nubu.Nubu-IOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = Nubu;
-				XROS_DEPLOYMENT_TARGET = 2.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nubu IOS";
 			};
 			name = Debug;
 		};
-		EED6B4322E64FB6D0010ED58 /* Release */ = {
+		EED6B4722E6625940010ED58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = EED6B44D2E6625920010ED58 /* Nubu */;
+			baseConfigurationReferenceRelativePath = Secrets.xcconfig;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Nubu.NubuUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nubu.Nubu-IOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = Nubu;
-				XROS_DEPLOYMENT_TARGET = 2.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nubu IOS";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -555,34 +563,53 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EED6B42A2E64FB6D0010ED58 /* Build configuration list for PBXNativeTarget "Nubu" */ = {
+		EED6B46A2E6625940010ED58 /* Build configuration list for PBXNativeTarget "Nubu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EED6B42B2E64FB6D0010ED58 /* Debug */,
-				EED6B42C2E64FB6D0010ED58 /* Release */,
+				EED6B46B2E6625940010ED58 /* Debug */,
+				EED6B46C2E6625940010ED58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EED6B42D2E64FB6D0010ED58 /* Build configuration list for PBXNativeTarget "NubuTests" */ = {
+		EED6B46D2E6625940010ED58 /* Build configuration list for PBXNativeTarget "Nubu Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EED6B42E2E64FB6D0010ED58 /* Debug */,
-				EED6B42F2E64FB6D0010ED58 /* Release */,
+				EED6B46E2E6625940010ED58 /* Debug */,
+				EED6B46F2E6625940010ED58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EED6B4302E64FB6D0010ED58 /* Build configuration list for PBXNativeTarget "NubuUITests" */ = {
+		EED6B4702E6625940010ED58 /* Build configuration list for PBXNativeTarget "Nubu UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EED6B4312E64FB6D0010ED58 /* Debug */,
-				EED6B4322E64FB6D0010ED58 /* Release */,
+				EED6B4712E6625940010ED58 /* Debug */,
+				EED6B4722E6625940010ED58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EED6B4362E661C6A0010ED58 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EED6B4882E6628D10010ED58 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EED6B4362E661C6A0010ED58 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EED6B4002E64FB6B0010ED58 /* Project object */;
 }
