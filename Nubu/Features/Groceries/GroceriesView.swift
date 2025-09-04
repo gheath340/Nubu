@@ -8,8 +8,27 @@
 import SwiftUI
 
 struct GroceriesView: View {
+    @State private var searchText = ""
+    @State private var showSearch = false
+    
     var body: some View {
-        Text("Groceries")
+        VStack  {
+            HStack {
+                Spacer()
+                Button(action: {
+                    showSearch = true
+                }) {
+                    Image(systemName: "magnifyingglass")
+                        .font(.title2)
+                    }
+            }
+            Spacer()
+        }
+        .padding()
+        .sheet(isPresented: $showSearch) {
+            GrocerySearchView()
+                .presentationDragIndicator(.visible)
+        }
     }
 }
 
