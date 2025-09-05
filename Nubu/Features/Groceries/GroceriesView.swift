@@ -20,16 +20,19 @@ struct GroceriesView: View {
                 }) {
                     Image(systemName: "magnifyingglass")
                         .font(.title2)
+                        .tint(.teal)
                     }
+                .padding()
             }
             Spacer()
         }
         .padding()
-        .sheet(isPresented: $showSearch) {
+        .fullScreenCover(isPresented: $showSearch) {
             GrocerySearchView()
                 .presentationDragIndicator(.visible)
         }
     }
+    
 }
 
 #Preview {
