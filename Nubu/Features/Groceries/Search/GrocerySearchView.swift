@@ -8,24 +8,29 @@
 import SwiftUI
 
 struct GrocerySearchView: View {
-    @Environment(\.dismiss) var dismiss
     @State private var query = ""
+    var onClose: () -> Void
     
     var body: some View {
         VStack(alignment: .leading)  {
             Button(action: {
-                dismiss()
+                withAnimation(.easeInOut) {
+                    onClose()
+                }
             }) {
                 Image(systemName: "arrow.left")
             }
-            .padding(.leading)
+            .font(.title2)
+            .padding()
+            .padding(.bottom, -4)
             .tint(.teal)
             
             CustomSearchBar(text: $query)
         }
+        Spacer()
     }
 }
 
-#Preview {
-    GrocerySearchView()
-}
+//#Preview {
+//    GrocerySearchView()
+//}

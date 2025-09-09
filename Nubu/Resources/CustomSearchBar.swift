@@ -31,6 +31,7 @@ struct CustomSearchBar: View {
                                 focused = false
                             } label: {
                                 Image(systemName: "xmark")
+                                    .font(.system(size: 16))
                                     .foregroundColor(.teal)
                                     .padding(.trailing, 8)
                             }
