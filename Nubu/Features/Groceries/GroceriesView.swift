@@ -26,10 +26,9 @@ struct GroceriesView: View {
                             Image(systemName: "magnifyingglass")
                                 .font(.title2)
                                 .tint(.teal)
-                                .padding(12)
                         }
                         .matchedGeometryEffect(id: "searchView", in: animation)
-                        .padding()
+                        .padding(.trailing)
                     }
                 }
                 Spacer()
