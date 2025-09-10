@@ -31,6 +31,6 @@ struct GrocerySearchView: View {
     }
 }
 
-//#Preview {
-//    GrocerySearchView()
-//}
+#Preview {
+    GrocerySearchView(onClose: {})
+}
