@@ -9,7 +9,7 @@ import Foundation
 //What do i want the search screen to look like??
     //Item name     Store   Price per unit
     //Click on item to get more info and to choose to add and how many units to add
-struct GroceryItem: Codable, Identifiable, Equatable, Hashable {
+struct groceryItem: Codable, Identifiable, Equatable, Hashable {
     let id: UUID
     let name: String
     let store: String
@@ -20,13 +20,13 @@ struct GroceryItem: Codable, Identifiable, Equatable, Hashable {
 
 @MainActor
 final class GrocerySearchVM: ObservableObject {
-    @Published var groceryItems: [GroceryItem] = []
+    @Published var groceryItems: [groceryItem] = []
     @Published var log: String = ""
     private var tableName: String = "catalog_items"
     
     func loadItems() async {
         do {
-            let rows: [GroceryItem] = try await supabase
+            let rows: [groceryItem] = try await supabase
                 .from(tableName)
                 .select("*")
                 .execute()
