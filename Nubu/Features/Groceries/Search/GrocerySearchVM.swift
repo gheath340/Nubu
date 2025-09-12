@@ -9,18 +9,14 @@ import Foundation
 //What do i want the search screen to look like??
     //Item name     Store   Price per unit
     //Click on item to get more info and to choose to add and how many units to add
-struct groceryItem: Codable, Identifiable, Equatable, Hashable {
-    let id: UUID
-    let name: String
-    let store: String
-    let size_value: Double
-    let size_unit: String
-    let price_cents: Double
-}
-
 @MainActor
 final class GrocerySearchVM: ObservableObject {
-    @Published var groceryItems: [groceryItem] = []
+    @Published var groceryItems: [groceryItem] = [
+        groceryItem(id: UUID(), name: "Chicken Breast", store: "Walmart", size_value: 5, size_unit: "lb", price_cents: 2500),
+        groceryItem(id: UUID(), name: "Steak", store: "Harmons", size_value: 12, size_unit: "oz", price_cents: 1500),
+        groceryItem(id: UUID(), name: "Apples", store: "Target", size_value: 5, size_unit: "ct", price_cents: 1000),
+        groceryItem(id: UUID(), name: "Milk", store: "Costco", size_value: 32, size_unit: "fl_oz", price_cents: 500)
+    ]
     @Published var log: String = ""
     private var tableName: String = "catalog_items"
     
