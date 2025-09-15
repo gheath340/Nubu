@@ -11,23 +11,28 @@ struct SearchItem: View {
     var item: groceryItem
     
     var body: some View {
-        HStack {
-            Text(item.name)
-                .font(.headline)
-                .foregroundColor(.primary)
-            
-            Spacer()
-            
-            Text(item.store)
-                .font(.subheadline)
-                .foregroundColor(.secondary)
-            
-            Text("$\(item.price_per_unit_string)/\(item.size_unit)")
-                .font(.subheadline)
-                .foregroundColor(.primary)
+        VStack(spacing: 0) {
+            HStack {
+                Text(item.name)
+                    .font(.headline)
+                    .foregroundColor(.primary)
+                
+                Spacer()
+                
+                Text(item.store)
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
+                
+                Text("$\(item.price_per_unit_string)/\(item.size_unit)")
+                    .font(.subheadline)
+                    .foregroundColor(.primary)
+            }
+            .padding()
+            Rectangle()
+                .fill(Color.gray.opacity(0.3))
+                .frame(height: 1)
+                .padding(.horizontal, 16)
         }
-        .padding()
-
     }
 }
 
