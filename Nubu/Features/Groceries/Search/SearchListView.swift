@@ -21,6 +21,9 @@ struct SearchListView: View {
                 }
             }
         }
+        .task {
+            await viewModel.loadItems()
+        }
         .opacity(showList ? 1 : 0)
         .onAppear {
             withAnimation(.easeInOut.delay(0.2)) {
